@@ -3,7 +3,8 @@ Gitignore file includes the file name or the name-types that should be igonored 
 For java projects usually all .jar , .war , .ear , .nar are added to the gitignore file since these files are project specific and need not be uploaded on the remote repository. 
 
 •What does fast-forward in Git mean?
-fast-forward merge can be be done when there exists a direct linear branch from the current branch to the target branch. In this the pointer of the target branch is simply moved to that of the current branch.
+fast-forward merge can be be done when there exists a direct linear path of commits from the current node to the target node. In this the pointer of the target node is simply moved to that of the current node.
+
 
 
 •Why should you have different branches?
